@@ -1,0 +1,372 @@
+DEBUG - 2026-06-02 04:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 04:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 04:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 04:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-02 04:41:32 --> Error: Class "App\Controllers\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 04:43:54 --> Error: Class "App\Controllers\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 06:49:04 --> Error: Class "App\Controllers\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 06:52:47 --> Error: Class "App\Libraries\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 06:52:50 --> Error: Class "App\Libraries\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 06:53:07 --> Error: Class "App\Libraries\TransactionQueue" not found
+[Method: GET, Route: blockchain/processQueue]
+in APPPATH\Controllers\Blockchain.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->processQueue()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+DEBUG - 2026-06-02 07:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 07:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-02 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-02 13:48:14 --> Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:14 --> [Caused by] mysqli_sql_exception: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+ERROR - 2026-06-02 13:48:15 --> Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:15 --> [Caused by] mysqli_sql_exception: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+ERROR - 2026-06-02 13:48:27 --> Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-02 13:48:27 --> [Caused by] mysqli_sql_exception: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(157): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(37): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')

@@ -1,0 +1,305 @@
+ERROR - 2026-06-03 02:24:00 --> Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(127): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(27): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:24:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(127): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Blockchain.php(27): App\Models\TransactionModel->getCategoryDistribution()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:24:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(127): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Blockchain.php(27): App\Models\TransactionModel->getCategoryDistribution()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:24:00 --> [Caused by] mysqli_sql_exception: Unknown column 'category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `category`, COUNT(*) as total, SUM(price) as revenue
+FROM `transactions`
+GROUP BY `category`
+ORDER BY `total` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(127): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Blockchain.php(27): App\Models\TransactionModel->getCategoryDistribution()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:43:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:45:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:50:44 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:50:46 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:50:46 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:50:47 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 02:52:15 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 03:05:51 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 03:07:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 03:10:54 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 03:11:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::whereNull
+[Method: GET, Route: blockchain/getQueueData]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Models\TransactionModel.php(51): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Controllers\Blockchain.php(247): App\Models\TransactionModel->getPendingTransactions()
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getQueueData()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 08:09:48 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::getTotalValue
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Controllers\Blockchain.php(24): CodeIgniter\Model->__call('getTotalValue', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 08:09:48 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TransactionModel::getTotalValue
+[Method: GET, Route: blockchain]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Controllers\Blockchain.php(24): CodeIgniter\Model->__call('getTotalValue', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 09:04:51 --> Error: Class "App\Libraries\DataStructures\TransactionQueue" not found
+[Method: POST, Route: blockchain/mineBlock]
+in APPPATH\Controllers\Blockchain.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->mineBlock()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 09:05:19 --> Error: Class "App\Libraries\DataStructures\TransactionQueue" not found
+[Method: POST, Route: blockchain/mineBlock]
+in APPPATH\Controllers\Blockchain.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->mineBlock()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 09:05:38 --> Error: Class "App\Libraries\DataStructures\TransactionQueue" not found
+[Method: POST, Route: blockchain/mineBlock]
+in APPPATH\Controllers\Blockchain.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->mineBlock()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 12:28:07 --> Error: Class "App\Libraries\DataStructures\MerkleTree" not found
+[Method: GET, Route: blockchain/getMerkleTree/2]
+in APPPATH\Controllers\Blockchain.php on line 400.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getMerkleTree(2)
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
+CRITICAL - 2026-06-03 12:28:20 --> Error: Class "App\Libraries\DataStructures\MerkleTree" not found
+[Method: GET, Route: blockchain/getMerkleTree/2]
+in APPPATH\Controllers\Blockchain.php on line 400.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->getMerkleTree(2)
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ai-marketplace\\public\\index.php')
