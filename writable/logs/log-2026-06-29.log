@@ -1,0 +1,77 @@
+ERROR - 2026-06-29 08:43:59 --> Table 'ai_marketplace.transactions' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Blockchain.php(23): App\Models\TransactionModel->countByStatus()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-29 08:43:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ai_marketplace.transactions' doesn't exist in engine
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', [], false)
+ 2 APPPATH\Models\TransactionModel.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Blockchain.php(23): App\Models\TransactionModel->countByStatus()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-29 08:43:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ai_marketplace.transactions' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', [], false)
+ 4 APPPATH\Models\TransactionModel.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Blockchain.php(23): App\Models\TransactionModel->countByStatus()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-29 08:43:59 --> [Caused by] mysqli_sql_exception: Table 'ai_marketplace.transactions' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as total
+FROM `transactions`
+GROUP BY `status`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Blockchain.php(23): App\Models\TransactionModel->countByStatus()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Blockchain->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blockchain))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

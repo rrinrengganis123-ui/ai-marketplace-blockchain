@@ -277,7 +277,7 @@
     <div class="logo-icon">🤖</div>
     <div>
       <div class="logo-text">AI MARKETPLACE</div>
-      <div class="logo-sub">Blockchain Dataset Platform</div>
+      <div class="logo-sub">Platform transaksi dataset untuk riset AI</div>
     </div>
   </div>
   <div class="header-right">
@@ -321,7 +321,7 @@
 
   <div class="tabs">
     <button class="tab active" onclick="switchTab('queue')">📥 Queue &amp; Transaksi</button>
-    <button class="tab" onclick="switchTab('blockchain')">🔗 Blockchain</button>
+    <button class="tab" onclick="switchTab('blockchain')">🔗 Linked List</button>
     <button class="tab" onclick="switchTab('merkle')">🌿 Merkle Tree</button>
     <button class="tab" onclick="switchTab('verify')">🔍 Verifikasi</button>
   </div>
